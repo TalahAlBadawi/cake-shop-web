@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    color: #7e6565;
+    background-color: rgb(243, 230, 217);
+    border-color: #7e6565;
+}
+
+
+label {
+    font-size: 20px;
+}
+
+table,
+td,
+th {
+    border: 2px solid rgb(146, 115, 115);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+html {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+form .first-title {
+
+    box-shadow: -5px 5px 5px 0px rgb(189, 99, 99);
+    opacity: 0.7;
+    text-align: center;
+    width: 175px;
+    height: 25px;
+    color: white;
+    background-color: lightcoral;
+    border-radius: 4px;
+
+}
+
+form .temel {
+
+    box-shadow: -5px 5px 5px 0px #cf929c;
+    opacity: 0.7;
+    text-align: center;
+    width: 350px;
+    height: 30px;
+    color: white;
+    background-color: #e69ba6;
+    border-radius: 4px;
+
+}
+
+form .shape {
+
+    min-width: 100px;
+    height: 59px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+
+form .topping-title {
+
+    box-shadow: -5px 5px 5px 0px rgb(189, 99, 99);
+    opacity: 0.7;
+    text-align: center;
+    width: 175px;
+    height: 25px;
+    color: white;
+    background-color: lightcoral;
+    border-radius: 4px;
+
+}
+
+.flavor-title {
+
+    box-shadow: -5px 5px 5px 0px rgb(189, 99, 99);
+    opacity: 0.7;
+    text-align: center;
+    width: 200px;
+    height: 22px;
+    color: white;
+    background-color: lightcoral;
+    border-radius: 4px;
+
+}
+
+form .info {
+
+    box-shadow: -5px 5px 5px 0px rgb(189, 99, 99);
+    opacity: 0.7;
+    text-align: center;
+    width: 200px;
+    height: 22px;
+    color: white;
+    background-color: lightcoral;
+    border-radius: 4px;
+
+}
+
+.topping {
+
+    min-width: 100px;
+    height: 59px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+
+form .temel,
+form .first-title {
+    margin-bottom: 20px;
+}
+
+.flavor-title {
+
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+input {
+
+    border-color: #653e2b8c;
+    border-radius: 5px;
+
+}
